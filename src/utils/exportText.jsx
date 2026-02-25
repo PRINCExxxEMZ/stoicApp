@@ -5,6 +5,7 @@ const ExportText = ({ content, filename = "Daily_Writing" }) => {
       return;
     }
 
+    
     // Create Word-compatible HTML
     const htmlContent = `
       <html>
